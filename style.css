@@ -27,3 +27,26 @@ nav a {
 nav a:hover {
     color: #ffdd40;
 }
+
+/* Dark mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode header {
+    background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+}
+
+.toggle-dark-mode {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
